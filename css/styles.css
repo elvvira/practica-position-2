@@ -1,0 +1,253 @@
+/* 
+colors: 
+  body background: #2a2b37
+  card background: #252a41
+  green: #1db489
+  red: #dc414c
+  facebook-color: #198ff5
+  twitter-color: #1ca0f2
+  instagram-color: #fdc468
+  instagram-color: #c4032a
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe3f7;
+  min-height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+html{
+  font-display: 16px;
+}
+
+.exercise {
+  height: 600px;
+  width: 1145px;
+  background-color: #2a2b37;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 8px;
+  position: relative
+}
+
+.cabecera {
+  height: 200px;
+  width: 1110px;
+  background-color: #252a41;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.cabecera-texto,
+.cabecera-sub-texto {
+  color: white;
+  position: absolute; 
+}
+.cabecera-texto {
+  left: 120px;
+  top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.cabecera-sub-texto {
+  left: 120px;
+  top: 90px;
+  font-size: 16px;
+}
+
+.cards-colors{
+  position: relative;
+  top: -30px;
+}
+.facebook-color,
+.twitter-color,
+.instagram-color,
+.youtube-color {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 15px;
+ }
+.facebook-color {
+  background-color: #198ff5;
+}
+.twitter-color{
+  background-color: #1ca0f2;
+}
+.instagram-color {
+  background-color: #fdc468;
+}
+.youtube-color {
+  background-color:#c4032a;
+}
+
+.cards-text {
+  position: relative;
+  top: -230px;
+}
+
+.facebook-card,
+.twitter-card,
+.instagram-card,
+.youtube-card {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #252a41;
+  text-align: center;
+  position: relative;
+}
+
+.text-icons {
+  width: 150px;
+  margin-top: 23px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram,
+.icon-youtube {
+ display: inline-block;
+ margin-right: 10px;
+ width: 17px;
+}
+
+
+.user {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+}
+
+.number-followers {
+  width: 200px;
+  position: absolute;
+  top: 20px;
+}
+.number {
+  color:white;
+  font-size: 50px;
+}
+.followers {
+  color:white;
+  font-size: 14px;
+  position: absolute;
+  top: 100px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.days {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 155px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.triangle {
+  width: 10px;
+  position: absolute;
+  top: 20px;
+  left: 52px;
+}
+
+.text-days,
+.text-days-red {
+  color: #1db489;
+  font-size: 13px;
+}
+.text-days-red{
+  color: #dc414c;
+}
+.sub-text {
+  position: absolute;
+  top: 395px;
+  left: 140px;
+
+}
+.h2{
+  font-size: 20px;
+  color: white;
+}
+
+.bottom-cards {
+  position: absolute;
+  top: 450px;
+  left: 140px;
+}
+
+.bottom-card-rrss {
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  background-color: #252a41;
+  border-radius: 5px;
+  margin-right: 15px;
+  position: relative;
+}
+.text-rrss {
+  display: inline-;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.icon-rrss {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.numbers-final {
+  width: 210px;
+  height: 50px;
+  position:absolute;
+  top: 50px;
+  display: flex;
+}
+
+.number-page {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.porcentages,
+.porcentages-red {
+  color: #1db489;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+}
+.porcentages-red{
+  color: #dc414c;
+
+}
+.triangle-final {
+  position: absolute;
+  top: 17px;
+  right: 70px;
+}
